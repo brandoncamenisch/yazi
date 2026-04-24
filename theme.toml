@@ -1,0 +1,51 @@
+[mgr]
+cwd = { fg = "#9d4edd", bold = true }
+
+hovered         = { fg = "#ffffff", bg = "#2a103e", bold = true }
+preview_hovered = { fg = "#ffffff", bg = "#2a103e" }
+
+find_keyword  = { fg = "#ff79c6", bold = true }
+find_position = { fg = "#00ff99", bold = true }
+
+marker_copied   = { fg = "#00ff99", bg = "#00ff99" }
+marker_cut      = { fg = "#ff3366", bg = "#ff3366" }
+marker_marked   = { fg = "#cfae42", bg = "#cfae42" }
+marker_selected = { fg = "#9d4edd", bg = "#9d4edd" }
+
+tab_active   = { fg = "#ffffff", bg = "#9d4edd", bold = true }
+tab_inactive = { fg = "#b8a9d9", bg = "#1a1625" }
+
+count_copied   = { fg = "#09070c", bg = "#00ff99" }
+count_cut      = { fg = "#ffffff", bg = "#ff3366" }
+count_selected = { fg = "#ffffff", bg = "#9d4edd" }
+
+border_symbol = "│"
+border_style = { fg = "#6d3bbd" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "#9d4edd", bg = "#1a1625" }
+progress_error  = { fg = "#ff3366", bg = "#1a1625" }
+
+[pick]
+border   = { fg = "#9d4edd" }
+active   = { fg = "#ffffff", bg = "#2a103e", bold = true }
+inactive = { fg = "#b8a9d9" }
+
+[input]
+border   = { fg = "#9d4edd" }
+title    = { fg = "#ffffff" }
+value    = { fg = "#cbb6ff" }
+selected = { reversed = true }
+
+[completion]
+border   = { fg = "#9d4edd" }
+active   = { bg = "#2a103e", fg = "#ffffff" }
+inactive = { fg = "#b8a9d9" }
+
+[help]
+border   = { fg = "#9d4edd" }
+title    = { fg = "#ffffff" }
